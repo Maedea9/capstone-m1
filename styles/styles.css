@@ -53,6 +53,10 @@ body {
     column-gap: 37%;
 }
 
+.session-container {
+    display: none;
+}
+
 #menu {
     position: absolute;
     z-index: 1;
@@ -329,6 +333,12 @@ footer {
       overflow-x: hidden;
     }
 
+    .session-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background-color: black;
+    }
 
 }
 
