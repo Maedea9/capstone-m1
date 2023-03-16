@@ -1,0 +1,321 @@
+
+* {
+    scrollbar-width: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+html {
+font-family: 'Lato', sans-serif;
+font-size: 18px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow-x: hidden;
+    min-width: 100vw;
+}
+
+.check,
+.check * {
+  border: solid 1px rgb(0, 0, 0);
+}
+
+#header {
+    /*position: absolute;*/
+    width: 100vw;
+    left: 0;
+    z-index: 10;
+    border-bottom: 2px solid gray;
+    background-color: black;
+}
+
+#header a {
+    color: black;
+    text-decoration: none;
+}
+
+#header a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#header-nav-bar {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40%;
+}
+
+#menu {
+    position: absolute;
+    z-index: 1;
+}
+
+#close-menu {
+    position: absolute;
+    /*opacity: 0;*/
+}
+
+#menu-container {
+    position: absolute;
+    top: 4em !important;
+    width: 100%;
+    height: 100%;
+   /*opacity: 0;*/
+}
+
+#nav-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: white;
+     display: none;
+}
+
+.nav-li1:hover {
+  background-color: grey;
+  color: black;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 5rem;
+    width: 100%;
+    background: url('/capstoneimgs/inti-raymi.png') center no-repeat;
+}
+
+.hero-hello {
+    font-size: 28px;
+    color: black;
+}
+
+.hero-title {
+    font-size: 50px;
+    font-weight: 900;
+    color: orangered;
+    letter-spacing: -1.5px;
+    padding-bottom: 5.5em;
+    background-image: url('/capstoneimgs/peakpx.jpg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: 60% 100%;
+}
+
+.artist-lineup {
+    margin-top: 6vw;
+}
+.line1 {
+    font-size: 6vw;
+    font-weight: 700;
+}
+
+.line2 {
+    font-size: 3.7vw;
+    font-weight: 700;
+}
+
+.line3 {
+    font-size: 4.7vw;
+    font-weight: 700;
+}
+
+.line4 {
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.line5 {
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.line6 {
+    font-size: 4.7vw;
+    font-weight: 700;
+}
+
+.line7 {
+    font-size: 3.7vw;
+    font-weight: 700;
+}
+
+.line8 {
+    font-size: 4.5vw;
+    font-weight: 700;
+}
+
+.date-venue {
+    font-size: 8vw;
+    font-weight: 700;
+    margin-top: 2vw;
+    color:gray
+}
+
+.main-program{
+   width: 100%;
+   height: fit-content;
+    background: url('/capstoneimgs/vecteezy_small-square-geometric-shape-with-modern-black-metallic_7169503.jpg') repeat;
+}
+
+.title {
+    color: white;
+    font-size: 15px;
+    background: url('/capstoneimgs/title_underline.png') bottom no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: #FF5438;
+}
+
+h3 {
+    font-size: 18px;
+    color: #FF5438;
+}
+
+.program-cards {
+    display: grid;
+    grid-template-columns: 100px 100px auto;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    padding: 1em;
+}
+
+.join-inti {
+   padding: 1.5em;
+   margin: 4em;
+   width: 75%;
+   color: white;
+   background-color: #FF5438;
+}
+
+.main-performers {
+    height: fit-content;
+   
+}
+.performer-title {
+    color: black;
+    font-size: 15px;
+    background: url('/capstoneimgs/title_underline.png') bottom no-repeat;
+}
+
+.container-performers {
+    padding: 6rem;
+}
+
+#all-performers {
+flex-wrap: wrap;
+margin-bottom: 0.5rem;
+padding: 3em;
+}
+
+.performer-card {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2em;
+}
+
+.checkerbg {
+background: url('/capstoneimgs/checkboard.jpg') top left no-repeat;
+background-size: contain;
+justify-self: center;
+padding: 0.7em 0 0 0.7em;
+width: 3.5em;
+height: 3.5em;
+}
+
+.band-detail {
+display: flex;
+flex-direction: column;
+margin-top: 9vw;
+margin-left: 12vw;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.band-brief-info {
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: #FF5438;
+    background: url(/capstoneimgs/title_underlinegray.svg) bottom left no-repeat;
+}
+
+.artist-intro {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.more-less{
+   padding: 1.5em;
+   margin: 4em;
+   width: 75%;
+   color: black;
+   background-color: white;
+   border: 1px solid grey;
+   background: url(/capstoneimgs/arrow_down\ 1.svg) center no-repeat;
+   background-position-x: 65%;
+}
+
+footer {
+    display: flex;
+    background-color: gray;
+    width: 100%;
+  }
+  
+  .footer-icon {
+    width: 30vw;
+    margin: 3vw;
+  }
+  
+  .foot-text-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .footer-p {
+    width: fit-content;
+    margin: 0.6vw;
+    color: var(--drkGray);
+  }
+  
+  footer p a {
+    color: var(--drkGray);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
