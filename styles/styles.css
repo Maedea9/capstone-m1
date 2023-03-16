@@ -67,6 +67,7 @@ body {
 
 #menu-container {
     position: absolute;
+    font-weight: bold;
     top: 4em !important;
     width: 100%;
     height: 100%;
@@ -79,20 +80,22 @@ body {
     align-items: center;
     row-gap: 2rem;
     padding: 1rem 1rem 1rem 1rem;
-    background-color: white;
+    background-color: lightgray;
      display: none;
 }
 
 .nav-li1:hover {
-  background-color: grey;
-  color: black;
+  background-color: orangered;
 }
 
-.menu-icon {
+#menu-icon {
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
-#logo {
+#menu-icon:hover #menu-icon:focus {
+    transform: scale(1.1);
+    outline: none;
 }
 
 .hero {
@@ -320,6 +323,14 @@ footer {
   
 
 /******DESKTOP STYLES ******/
+
+@media screen and (min-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+
+
+}
 
 
 
