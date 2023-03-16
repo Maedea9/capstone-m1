@@ -113,7 +113,7 @@ background-color: orangered;
     background-color: #f5f5f580;
     color: orangered;
     text-align: center;
-    background: url(/capstoneimgs/inti-raymi.png) center no-repeat;
+    background: url(./capstoneimgs/inti-raymi.png) center no-repeat;
   }
   
   .headline-p {
@@ -166,7 +166,7 @@ background-color: orangered;
     text-align: center;
     margin-inline: 3vw;
     padding-bottom: 5vw;
-    background: url(/capstoneimgs/title_underline.png) bottom no-repeat;
+    background: url(./capstoneimgs/title_underline.png) bottom no-repeat;
   }
 
   .creative-p {
@@ -243,7 +243,7 @@ background-color: orangered;
   .ir2022 {
     width: 100%;
     display: block;
-    background: url(/capstoneimgs/inti-raymi-2022.jpg) no-repeat;
+    background: url(./capstoneimgs/inti-raymi-2022.jpg) no-repeat;
     background-size: contain;
     text-decoration: none;
     margin-bottom: 1.5vw;
@@ -253,7 +253,7 @@ background-color: orangered;
   .ir2020 {
   width: 100% ;
   display: block;
-  background: url(/capstoneimgs/DSC_01192.jpg) no-repeat;
+  background: url(./capstoneimgs/DSC_01192.jpg) no-repeat;
   background-size: cover;
   text-decoration: none;
   color:white;
@@ -290,7 +290,7 @@ background-color: orangered;
   }
 
   .titlePartners::after {
-   background-image: url('/capstoneimgs/title_underline.png') no-repeat;
+   background-image: url('./capstoneimgs/title_underline.png') no-repeat;
   }
 
   .sponsors {
