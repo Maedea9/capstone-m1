@@ -1,0 +1,302 @@
+* {
+    scrollbar-width: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+html {
+font-family: 'Lato', sans-serif;
+font-size: 18px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow-x: hidden;
+    min-width: 100vw;
+}
+
+.check,
+.check * {
+  border: solid 1px rgb(0, 0, 0);
+}
+
+#header {
+    /*position: absolute;*/
+    width: 100vw;
+    left: 0;
+    z-index: 10;
+    border-bottom: 2px solid gray;
+    background-color: black;
+}
+
+#header a {
+    color: black;
+    text-decoration: none;
+}
+
+#header a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#header-nav-bar {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40%;
+}
+
+#menu {
+    position: absolute;
+    z-index: 1;
+}
+
+#close-menu {
+    position: absolute;
+    /*opacity: 0;*/
+}
+
+#menu-container {
+    position: absolute;
+    top: 4em !important;
+    width: 100%;
+    height: 100%;
+   /*opacity: 0;*/
+}
+
+#nav-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: white;
+     display: none;
+}
+
+.nav-li1:hover {
+  background-color: grey;
+  color: black;
+}
+
+#logo {
+    margin-inline: -5vw;
+}
+
+/***********header***************/
+
+#headline {
+    width: 100%;
+  }
+
+  .headline-hello {
+    color: orangered;
+    text-align: center;
+    margin: 5vw 0 0 0;
+    font-size: 1.2rem;
+  }
+  
+  .headline-title {
+    font-size: 8vw;
+    font-weight: 900;
+    height: 120vw;
+    padding: 1vw 0 0 3vw;
+    margin-top: 4vw;
+    background-color: #f5f5f580;
+    color: orangered;
+    text-align: center;
+    background: url(/capstoneimgs/inti-raymi.png) center no-repeat;
+  }
+  
+  .headline-p {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 75vw;
+    width: 94%;
+    margin-inline: 3vw;
+    border: 2px solid grey;
+    padding: 3vw;
+    background-color: #fff;
+    text-align: center;
+    font-size: 3.6vw;
+    line-height: 6vw;
+    color: black
+  }
+  
+  .contact {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 120vw;
+    width: 94%;
+    margin-inline: 3vw;
+    padding: 3vw;
+    text-align: center;
+    align-items: center;
+    font-size: 3.6vw;
+    font-weight: bold;
+    line-height: 5.7vw;
+  }
+  
+  address {
+    position: relative;
+    top: -5vw;
+    width: 100%;
+    text-align: center;
+    font-size: 3.6vw;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  /*#creative h1::after {
+    left: 47%;
+  }*/
+
+  .sectionTitle {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-inline: 3vw;
+    padding-bottom: 5vw;
+    background: url(/capstoneimgs/title_underline.png) bottom no-repeat;
+  }
+
+  .creative-p {
+    font-size: 0.7rem;
+    line-height: 5vw;
+    font-weight: bold;
+    color: grey;
+    margin-inline: 2vw;
+    text-align: center;
+  }
+
+  .desktop-p {
+    display: block;
+  }
+
+  #creative img {
+    width: 50%;
+    margin-block: 3vw;
+    margin-inline: 25vw;
+    padding: 0;
+    border: 2px solid lightgrey;
+  }
+
+  /******** History ********/
+
+  #history {
+    padding: 0 12vw 12vw 12vw;
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 0 6vw 0;
+    justify-content: center;*/
+  }
+
+  #history h1 {
+    width: 100%;
+  }
+
+  /*#history h1::after {
+    left: 47%;
+  }*/
+
+  .history-p {
+    /*width: 100%;*/
+    font-size: 0.7rem;
+    margin-inline: 2vw;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /*.hist-link {
+    width: 30%;
+    height: 30%;
+    color:#fff;
+    text-decoration: none;
+    margin-inline: 1.5vw;
+    transition: transform 300ms ease-in-out;
+  }
+
+  .hist-link:hover {
+    transform: scale(1.2);
+  }*/
+
+  .hist-time {
+    font-size: 9vw;
+    text-align: center;
+  }
+
+  .hist-title {
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .ir2022 {
+    display: block;
+    background: url(/capstoneimgs/inti-raymi-2022.jpg) no-repeat;
+    background-size: contain;
+    text-decoration: none;
+    color: white;
+  }
+
+  .ir2020 {
+  display: block;
+  background: url(/capstoneimgs/DSC_01192.jpg) no-repeat;
+  background-size: contain;
+  text-decoration: none;
+  color:white;
+  }
+
+  #history article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #b62a1bad;
+    width: 100%;
+    height: 50vw;
+  }
+
+  #sponsors {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #414246;
+    padding-bottom: 6vw;
+    /*display: none;*/
+  }
+
+  .titlePartners {
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 6vw;
+    padding-bottom: 5vw;
+    color:white;
+    background-color: #414246;
+    background-image: url('/capstoneimgs/title_underline.png') bottom no-repeat;
+  }
+
+  /**** Footer ******/
+
+  footer {
+    background-color: white;
+  }
+
+  .footer-p,
+  .footer-p a {
+    color: var(--lghtGray);
+  }
+
+ 
+
+
+
+
+
+  
