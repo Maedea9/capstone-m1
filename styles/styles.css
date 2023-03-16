@@ -11,6 +11,7 @@
 html {
 font-family: 'Lato', sans-serif;
 font-size: 18px;
+overflow-x: hidden;
 }
 
 body {
@@ -19,7 +20,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    overflow-x: hidden;
     min-width: 100vw;
 }
 
@@ -34,7 +34,7 @@ body {
     left: 0;
     z-index: 10;
     border-bottom: 2px solid gray;
-    background-color: black;
+    background-color: white;
 }
 
 #header a {
@@ -50,7 +50,7 @@ body {
 #header-nav-bar {
     display: flex;
     flex-direction: row;
-    column-gap: 40%;
+    column-gap: 37%;
 }
 
 #menu {
@@ -58,8 +58,10 @@ body {
     z-index: 1;
 }
 
-#close-menu {
+.close-menu-icon {
     position: absolute;
+    display: none;
+    cursor: pointer;
     /*opacity: 0;*/
 }
 
@@ -71,7 +73,7 @@ body {
    /*opacity: 0;*/
 }
 
-#nav-ul {
+.menu {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,18 +88,25 @@ body {
   color: black;
 }
 
+.menu-icon {
+    cursor: pointer;
+}
+
+#logo {
+}
+
 .hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
     width: 100%;
     background: url('/capstoneimgs/inti-raymi.png') center no-repeat;
 }
 
 .hero-hello {
-    font-size: 28px;
+    font-size: 25px;
     color: black;
 }
 
@@ -164,14 +173,18 @@ body {
 }
 
 .main-program{
+   padding-top: 3vw;
+   padding-bottom: 3vw;
    width: 100%;
    height: fit-content;
-    background: url('/capstoneimgs/vecteezy_small-square-geometric-shape-with-modern-black-metallic_7169503.jpg') repeat;
+    background: url('/capstoneimgs/diamond.png') repeat;
+    background-color: black;
 }
 
 .title {
     color: white;
     font-size: 15px;
+    padding-bottom: 0.5vw;
     background: url('/capstoneimgs/title_underline.png') bottom no-repeat;
 }
 
@@ -209,11 +222,12 @@ h3 {
 .performer-title {
     color: black;
     font-size: 15px;
+    margin-bottom: 0;
     background: url('/capstoneimgs/title_underline.png') bottom no-repeat;
 }
 
 .container-performers {
-    padding: 6rem;
+    padding: 1rem 6rem 6rem 6rem;
 }
 
 #all-performers {
@@ -304,6 +318,8 @@ footer {
     color: var(--drkGray);
   }
   
+
+/******DESKTOP STYLES ******/
 
 
 

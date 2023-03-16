@@ -214,7 +214,7 @@ body {
     text-align: center;
   }
 
-  /*.hist-link {
+  .hist-link {
     width: 30%;
     height: 30%;
     color:#fff;
@@ -225,7 +225,7 @@ body {
 
   .hist-link:hover {
     transform: scale(1.2);
-  }*/
+  }
 
   .hist-time {
     font-size: 9vw;
@@ -239,17 +239,20 @@ body {
   }
 
   .ir2022 {
+    width: 100%;
     display: block;
     background: url(/capstoneimgs/inti-raymi-2022.jpg) no-repeat;
     background-size: contain;
     text-decoration: none;
+    margin-bottom: 1.5vw;
     color: white;
   }
 
   .ir2020 {
+  width: 100% ;
   display: block;
   background: url(/capstoneimgs/DSC_01192.jpg) no-repeat;
-  background-size: contain;
+  background-size: cover;
   text-decoration: none;
   color:white;
   }
@@ -258,39 +261,63 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #b62a1bad;
+   background-color: #b62a1bad;
     width: 100%;
-    height: 50vw;
+    height: 43vw;
   }
 
   #sponsors {
+    position: relative;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     background-color: #414246;
     padding-bottom: 6vw;
     /*display: none;*/
   }
 
   .titlePartners {
-    font-size: 5vw;
+    font-size: 4vw;
     text-align: center;
     padding-top: 6vw;
-    padding-bottom: 5vw;
+    padding-bottom: 2vw;
     color:white;
     background-color: #414246;
-    background-image: url('/capstoneimgs/title_underline.png') bottom no-repeat;
+    
+  }
+
+  .titlePartners::after {
+   background-image: url('/capstoneimgs/title_underline.png') no-repeat;
+  }
+
+  .sponsors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   /**** Footer ******/
 
   footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
     background-color: white;
+  }
+
+  .wmf-logo {
+    width: 25vw;
+  position: relative;
+  margin-right: 3vw;
   }
 
   .footer-p,
   .footer-p a {
-    color: var(--lghtGray);
+    margin-block: 3vw;
+    color: #414246;
   }
 
  
