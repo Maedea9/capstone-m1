@@ -193,13 +193,16 @@ body {
     color:black;
 }
 
+.info {
+    padding-top: 1vw;
+    background: url(../capstoneimgs/diamond.png) repeat;
+    background-color:rgb(26, 26, 26);
+}
 .main-program{
    padding-top: 3vw;
    padding-bottom: 3vw;
    width: 100%;
    height: fit-content;
-    background: url(../capstoneimgs/diamond.png) repeat;
-    background-color:rgb(26, 26, 26);
 }
 
 .title {
@@ -432,4 +435,36 @@ footer {
         margin-right: 3vw;
     }
 
+    .main-program {
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+        margin-top: 0;
+    }
+
+    .title {
+        flex-direction: flex;
+        justify-content: center;
+    }
+
+    .program-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-text {
+        align-self: center;
+    }
+
+    .join-inti {
+        display: none;
+    }
+
+    .desktop-see-program {
+        display: block;
+        color: white;
+        margin-top: -7vw;
+        cursor: pointer;
+    }
 }
