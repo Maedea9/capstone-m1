@@ -109,7 +109,7 @@ body {
     padding: 2rem;
     margin-top: 2rem;
     width: 100%;
-    background: url(/capstoneimgs/inti-raymi.png) center no-repeat;
+    background: url(../capstoneimgs/inti-raymi.png) center no-repeat;
 }
 
 .hero-hello {
@@ -123,7 +123,7 @@ body {
     color: orangered;
     letter-spacing: -1.5px;
     padding-bottom: 5.5em;
-    background-image: url(/capstoneimgs/peakpx.jpg);
+    background-image: url(../capstoneimgs/peakpx.jpg);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-position: 60% 100%;
@@ -184,7 +184,7 @@ body {
    padding-bottom: 3vw;
    width: 100%;
    height: fit-content;
-    background: url(/capstoneimgs/diamond.png) repeat;
+    background: url(../capstoneimgs/diamond.png) repeat;
     background-color: black;
 }
 
@@ -192,7 +192,7 @@ body {
     color: white;
     font-size: 15px;
     padding-bottom: 0.5vw;
-    background: url(/capstoneimgs/title_underline.png) bottom no-repeat;
+    background: url(../capstoneimgs/title_underline.png) bottom no-repeat;
 }
 
 a {
@@ -230,7 +230,7 @@ h3 {
     color: black;
     font-size: 15px;
     margin-bottom: 0;
-    background: url(/capstoneimgs/title_underline.png) bottom no-repeat;
+    background: url(../capstoneimgs/title_underline.png) bottom no-repeat;
 }
 
 .container-performers {
@@ -251,7 +251,7 @@ gap: 2em;
 }
 
 .checkerbg {
-background: url('/capstoneimgs/checkboardimg.jpg') top left no-repeat;
+background: url('../capstoneimgs/checkboardimg.jpg') top left no-repeat;
 background-size: contain;
 justify-self: center;
 padding: 0.7em 0 0 0.7em;
@@ -276,7 +276,7 @@ margin-left: 12vw;
     font-size: 16px;
     padding-bottom: 10px;
     color: #FF5438;
-    background: url(capstoneimgs/title_underlinegray.svg) bottom left no-repeat;
+    background: url(../capstoneimgs/title_underlinegray.svg) bottom left no-repeat;
 }
 
 .artist-intro {
@@ -292,7 +292,7 @@ margin-left: 12vw;
    color: black;
    background-color: white;
    border: 1px solid grey;
-   background: url(/capstoneimgs/arrow_down\ 1.svg) center no-repeat;
+   background: url(../capstoneimgs/arrow_down\ 1.svg) center no-repeat;
    background-position-x: 65%;
 }
 
