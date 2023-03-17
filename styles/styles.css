@@ -251,7 +251,7 @@ gap: 2em;
 }
 
 .checkerbg {
-background: url(../capstoneimgs/checkboardimg.jpg) top left no-repeat;
+background: url('/capstoneimgs/checkboardimg.jpg') top left no-repeat;
 background-size: contain;
 justify-self: center;
 padding: 0.7em 0 0 0.7em;
