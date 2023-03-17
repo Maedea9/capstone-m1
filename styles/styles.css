@@ -228,7 +228,8 @@ h3 {
     justify-content: flex-start;
     align-items: center;
     color: white;
-    padding: 1em;
+    padding: 0.5em;
+    background-color: rgba(65, 66, 70, 0.4);
 }
 
 .join-inti {
@@ -425,6 +426,11 @@ footer {
         color:#e62406
     }
 
+    .artists-lineup:hover {
+        transition: transform 0.5s ease-in-out;
+        transform: scale(1.6);
+    }
+
     .date-venue {
         display: flex;
         flex-direction: column;
@@ -451,6 +457,8 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 20%;
+        height: 70%;
     }
 
     .card-text {
@@ -466,5 +474,27 @@ footer {
         color: white;
         margin-top: -7vw;
         cursor: pointer;
+    }
+
+    #all-performers {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        
+    }
+
+    .performer-card {
+        display: flex;
+         width: 50%;
+         padding: 0 6vw 1vw 0;
+    }
+
+    .band-detail {
+        margin-top: 3vw;
+        margin-left: 7vw;
+    }
+
+    .more-less {
+        display: none;;
     }
 }
