@@ -332,15 +332,20 @@ footer {
     body {
       overflow-x: hidden;
     }
-
-    .session-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        background-color: black;
+    #header-nav-bar {
+        display: none;
     }
 
+    .session-container {
+        display: flex !important;
+        background-color: black;
+        justify-content: flex-end;
+        color: white;
+        height: auto;
+        width: 100%;
+    }
 }
+
 
 
 
