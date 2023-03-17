@@ -230,7 +230,7 @@ h3 {
     color: black;
     font-size: 15px;
     margin-bottom: 0;
-    background: url(capstoneimgs/title_underline.png) bottom no-repeat;
+    background: url(/capstoneimgs/title_underline.png) bottom no-repeat;
 }
 
 .container-performers {
@@ -251,7 +251,7 @@ gap: 2em;
 }
 
 .checkerbg {
-background: url(/capstoneimgs/checkboardimg.jpg) top left no-repeat;
+background: url(../capstoneimgs/checkboardimg.jpg) top left no-repeat;
 background-size: contain;
 justify-self: center;
 padding: 0.7em 0 0 0.7em;
@@ -292,7 +292,7 @@ margin-left: 12vw;
    color: black;
    background-color: white;
    border: 1px solid grey;
-   background: url(capstoneimgs/arrow_down\ 1.svg) center no-repeat;
+   background: url(/capstoneimgs/arrow_down\ 1.svg) center no-repeat;
    background-position-x: 65%;
 }
 
