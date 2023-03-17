@@ -14,26 +14,50 @@
 </head>
 <body>
 
-  <header class="#top-page">
-    <!----<ul id="session-social">
+  <section class="top-page">
+    <div class="session-container">
+      <ul id="session-social" class="d-flex mx-4 mt-2 mb-1">
        <li>
-        <a class="face-link" href ="#">
+        <a class="sessionbar px-4" href ="#">
           <i>
-            <img src="capstoneimgs/facebook.png" alt="facebook-link">
+            <img class="sessionbar w-25" src="./capstoneimgs/facebook.png" alt="facebook-link">
               </i>
          </a>
       </li>
       <li>
-        <a href="twitter-link" href="#">
+        <a class="sessionbar px-4" href="#">
           <i>
-            <img src="capstoneimgs/twitter.png" alt="twitter-link">
+            <img class="sessionbar w-25" src="./capstoneimgs/twitter.png" alt="twitter-link">
           </i>
         </a>
       </li>
-      <li>English</li>
-      <li>My Page</li>
-      <li>Logout</li>
-    </ul> --->
+      <li class="sessionbar px-4">English</li>
+      <li class="sessionbar px-4">My Page</li>
+      <li class="sessionbar px-4">Logout</li>
+    </ul>
+  </div>
+
+  <div class=" secondary-nav">
+    <a id="logonav" href="#top-page" class="sm d-none">
+      <img src="./capstoneimgs/logo.png" alt="world-music-festival-logo">
+    <ul class="d-flex justify-content-end px-4 mt-3">
+      <li class="sec-nav-item">
+        <a class="sec-nav-link px-4" href="about.html">About</a>
+      </li>
+      <li class="sec-nav-item">
+        <a class="sec-nav-link px-4" href="#">Program</a>
+      </li>
+      <li class="sec-nav-item">
+        <a class="sec-nav-link px-4" href="#">Performers</a>
+      </li>
+      <li class="sec-nav-item">
+        <a class="sec-nav-link px-4" href="#">Partners</a>
+      </li>
+      <li class="sec-nav-item-btn">
+        <button class="sec-nav-link-btn px-4">Campaign</button>
+      </li>
+    </ul>
+  </div>
 
         <div id="header">
           <div id="header-nav-bar">
@@ -45,7 +69,7 @@
               <div id="menu-container">
                 <ul class="menu">
                   <li class ="nav-li1 p-2 w-100 d-flex justify-content-center text-danger" >
-                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
                   </li>
                   <li class ="nav-li1 p-2 w-100 d-flex justify-content-center"> 
                     <a href="#program">Program</a>
@@ -62,12 +86,10 @@
               </ul>
               </div> 
             </nav>
-            <a id="logo" href="#top-page" class="sm d-none">
-              <img src="./capstoneimgs/logo.png" alt="world-music-festival-logo">
-            </a>
           </div>                     
         </div>
-  </header>
+  </section>
+
 
       <section id="headline">
         <p class="headline-hello">"Hello! World Music Fans!"</p>

@@ -52,6 +52,14 @@ border: solid 1px rgb(0, 0, 0);
   column-gap: 37%;
 }
 
+.session-container {
+  display: none;
+}
+
+.secondary-nav {
+  display: none;
+}
+
 #menu {
   position: absolute;
   z-index: 1;
@@ -87,8 +95,14 @@ border: solid 1px rgb(0, 0, 0);
 background-color: orangered;
 }
 
-.menu-icon {
+#menu-icon {
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu-icon:hover #menu-icon:focus {
+  transform: scale(1.1);
+  outline: none;
 }
 
 /***********header***************/
@@ -321,6 +335,56 @@ background-color: orangered;
     margin-block: 3vw;
     color: #414246;
   }
+
+
+  /*********DESKTOP*******************/
+
+  @media screen and (min-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+    #header-nav-bar {
+        display: none;
+    }
+
+    .session-container {
+     display: flex !important;
+    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+     color: white;
+     font-size: 14px;
+    height: auto;
+    width: 100%;
+    }
+
+    .sessionbar {
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+    }
+
+    .sessionbar:hover {
+        transform: scale(1.2);
+    }
+
+    .logonav {
+        display: block;
+        height: auto;
+    }
+
+    .secondary-nav {
+        display: block;
+       align-items: center;
+    }
+
+    .sec-nav-link-btn {
+        border: 3px solid #FF5438;
+        padding: 0.5rem;
+        color:#FF5438;
+        font-weight: bold;
+        background-color: white;
+    }
+
 
  
 
