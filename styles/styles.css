@@ -318,6 +318,10 @@ margin-left: 12vw;
    background-position-x: 65%;
 }
 
+#sponsors {
+    display: none;
+}
+
 footer {
     display: flex;
     background-color: gray;
@@ -348,7 +352,7 @@ footer {
   }
   
 
-/******DESKTOP STYLES ******/
+/******DESKTOP STYLES ********************************/
 
 @media screen and (min-width: 768px) {
     body {
@@ -446,6 +450,7 @@ footer {
         flex-direction: row;
         height: 400px;
         margin-top: 0;
+        padding-inline: 3vw;
     }
 
     .title {
@@ -497,4 +502,35 @@ footer {
     .more-less {
         display: none;;
     }
+
+    .titlePartners {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: #414246;
+        color: white;
+    }
+    #sponsors {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #414246;
+        color: white;
+        padding: 2vw;
+    }
+
+    .desktop-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+        padding: 0vw;
+    }
+
+    .footer-icon {
+        width: 100%;
+    }
+    
 }
