@@ -248,11 +248,17 @@ h3 {
     height: fit-content;
    
 }
-.performer-title {
+#perTitle {
+   text-align: center;
     color: black;
     font-size: 15px;
     margin-bottom: 0;
-    background: url(../capstoneimgs/title_underline.png) bottom no-repeat;
+}
+
+.red-line {
+    width: 100%;
+    height: auto;
+    background: url('../capstoneimgs/title_underline.png') no-repeat;
 }
 
 .container-performers {
@@ -318,6 +324,9 @@ margin-left: 12vw;
    background-position-x: 65%;
 }
 
+.titlePartners {
+    display: none;
+}
 #sponsors {
     display: none;
 }
@@ -333,21 +342,14 @@ footer {
     margin: 3vw;
   }
   
-  .foot-text-cont {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-weight: bold;
-    color: white;
-  }
-  
   .footer-p {
-    width: fit-content;
+    width: 100%;
     margin: 0.6vw;
-    color: var(--drkGray);
+    color:#414246;
+    align-self: center;
   }
   
-  footer p a {
+  .footer-p a {
     color: var(--drkGray);
   }
   
