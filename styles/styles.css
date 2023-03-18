@@ -268,7 +268,7 @@ h3 {
 #all-performers {
 flex-wrap: wrap;
 margin-bottom: 0.5rem;
-padding: 3em;
+padding-inline: 3em;
 height: 650px;
 overflow: hidden;
 }
@@ -322,9 +322,9 @@ margin-left: 12vw;
    margin: 4em;
    width: 75%;
    color: black;
+   height: auto;
    background-color: white;
    border: 1px solid grey;
-   background-position-x: 65%;
    padding: 0.8em;
 }
 
@@ -357,12 +357,7 @@ margin-left: 12vw;
     height: auto;
     align-items: end;
   }
-  
-  .footer-icon {
-    width: 30vw;
-    margin: 3vw;
-  }
-  
+
   .footer-p {
     width: 100%;
     color:#414246;
@@ -539,7 +534,6 @@ margin-left: 12vw;
     }
 
     .desktop-footer {
-        display: flex;
         justify-content: space-between;
         align-items: center;
         color: white;
@@ -548,7 +542,11 @@ margin-left: 12vw;
     }
 
     .footer-icon {
-        width: 100%;
+        width: 20%;
     }
     
+    .footer-p {
+        justify-self: flex-end;
+        width: fit-content;
+    }
 }
