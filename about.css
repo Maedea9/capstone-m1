@@ -310,10 +310,10 @@ footer {
   color: #414246;
 }
 
-.footer-p > a {
+/*.footer-p > a {
   margin-block: 3vw;
   color: #414246;
-}
+}*/
 
 @media screen and (min-width: 768px) {
   body {
