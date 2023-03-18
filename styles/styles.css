@@ -269,6 +269,8 @@ h3 {
 flex-wrap: wrap;
 margin-bottom: 0.5rem;
 padding: 3em;
+height: 650px;
+overflow: hidden;
 }
 
 .performer-card {
@@ -314,15 +316,31 @@ margin-left: 12vw;
 }
 
 .more-less{
-   padding: 1.5em;
+  display: flex;
+  justify-content: center;
+   align-self: center;
    margin: 4em;
    width: 75%;
    color: black;
    background-color: white;
    border: 1px solid grey;
-   background: url(../capstoneimgs/arrow_down\ 1.svg) center no-repeat;
    background-position-x: 65%;
+   padding: 0.8em;
 }
+
+.more-less::after {
+    display: flex;
+    transition: 0.2s;
+    font-size: 22px;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+  }
+
+  .more-lessExpand {
+    height: auto;
+    overflow: visible !important;
+  }
 
 .titlePartners {
     display: none;
@@ -331,10 +349,13 @@ margin-left: 12vw;
     display: none;
 }
 
-footer {
+.desktop-footer {
     display: flex;
+    flex-direction: row;
     background-color: gray;
     width: 100%;
+    height: auto;
+    align-items: end;
   }
   
   .footer-icon {
@@ -344,13 +365,8 @@ footer {
   
   .footer-p {
     width: 100%;
-    margin: 0.6vw;
     color:#414246;
     align-self: center;
-  }
-  
-  .footer-p a {
-    color: var(--drkGray);
   }
   
 
@@ -487,7 +503,7 @@ footer {
         display: flex;
         width: 100%;
         flex-wrap: wrap;
-        
+        height: auto;
     }
 
     .performer-card {

@@ -91,6 +91,20 @@ allArtists.map((performer) => {
       return ('');
 });
 
+//more-less button//
+
+const buttonShow = document.getElementById('showMore');
+const artistsBlock = document.getElementById('all-performers');
+
+buttonShow.addEventListener('click', () => {
+    artistsBlock.classList.toggle('more-lessExpand');
+    buttonShow.classList.toggle('arrowDown');
+    if (buttonShow.innerHTML === 'MORE') {
+        buttonShow.innerHTML = 'LESS';
+    } else {
+        buttonShow.innerHTML = 'MORE'; }
+    });
+
 
 
 
