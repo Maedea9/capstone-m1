@@ -1,0 +1,1267 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+
+
+
+
+* {
+    scrollbar-width: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+html {
+font-family: 'Lato', sans-serif;
+font-size: 18px;
+overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-width: 100vw;
+}
+
+.check,
+.check * {
+  border: solid 1px rgb(0, 0, 0);
+}
+
+#header {
+    /*position: absolute;*/
+    width: 100vw;
+    left: 0;
+    z-index: 10;
+    border-bottom: 2px solid gray;
+    background-color: white;
+}
+
+#header a {
+    color: black;
+    text-decoration: none;
+}
+
+#header a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#header-nav-bar {
+    display: flex;
+    flex-direction: row;
+    column-gap: 37%;
+}
+
+.session-container {
+    display: none;
+}
+
+.secondary-nav {
+    display: none;
+}
+
+#menu {
+    position: absolute;
+    z-index: 1;
+}
+
+.close-menu-icon {
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    /*opacity: 0;*/
+}
+
+#menu-container {
+    position: absolute;
+    font-weight: bold;
+    top: 4em !important;
+    width: 100%;
+    height: 100%;
+   /*opacity: 0;*/
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: lightgray;
+     display: none;
+}
+
+.nav-li1:hover {
+  background-color: orangered;
+}
+
+#menu-icon {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#menu-icon:hover #menu-icon:focus {
+    transform: scale(1.1);
+    outline: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.hero-hello {
+    font-size: 25px;
+    color: black;
+}
+
+.hero-title {
+    font-size: 50px;
+    font-weight: 900;
+    color: orangered;
+    letter-spacing: -1.5px;
+    padding-bottom: 0em;
+    background-image: url(../capstoneimgs/peakpx.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: 60% 100%;
+}
+
+.artists-lineup {
+    justify-content: center;
+    width: 100%;
+    margin-top: 1vw;
+    margin-right: 16px;
+    background: url(../capstoneimgs/inti-raymi.png) center no-repeat;
+}
+.line1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.line2 {
+    font-size: 0.69em;
+    font-weight: 700;
+}
+
+.line3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.line4 {
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+
+.line5 {
+    font-size: 0.5rem;
+    font-weight: 700;
+}
+
+.line6 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.line7 {
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.line8 {
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.date {
+    font-size: 6vw;
+    font-weight: 700;
+    margin-top: 1vw;
+    color:gray
+}
+
+.venue {
+    font-size: 4vw;
+    font-weight: 300;
+    margin-top: 1vw;
+    color:black;
+}
+
+.info {
+    padding-top: 1vw;
+    background: url(../capstoneimgs/diamond.png) repeat;
+    background-color:rgb(26, 26, 26);
+}
+.main-program{
+   padding-top: 3vw;
+   padding-bottom: 3vw;
+   width: 100%;
+   height: fit-content;
+}
+
+.title {
+    color: white;
+    font-size: 15px;
+    padding-bottom: 0.5vw;
+    background: url(../capstoneimgs/title_underline.png) bottom no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: #FF5438;
+}
+
+h3 {
+    font-size: 18px;
+    color: #FF5438;
+}
+
+.program-cards {
+    display: grid;
+    grid-template-columns: 100px 100px auto;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    padding: 0.5em;
+    background-color: rgba(65, 66, 70, 0.4);
+}
+
+.join-inti {
+   padding: 1.5em;
+   margin: 4em;
+   width: 75%;
+   color: white;
+   background-color: #FF5438;
+}
+
+.desktop-see-program {
+    display: none;
+}
+
+.main-performers {
+    height: fit-content;
+   
+}
+#perTitle {
+   text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.red-line {
+    width: 100%;
+    height: auto;
+    background: url('../capstoneimgs/title_underline.png') no-repeat;
+}
+
+.container-performers {
+    padding: 1rem 6rem 6rem 6rem;
+}
+
+#all-performers {
+flex-wrap: wrap;
+margin-bottom: 0.5rem;
+padding-inline: 3em;
+height: 650px;
+overflow: hidden;
+}
+
+.performer-card {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2em;
+}
+
+.checkerbg {
+background: url('../capstoneimgs/checkboardimg.jpg') top left no-repeat;
+background-size: contain;
+justify-self: center;
+padding: 0.7em 0 0 0.7em;
+width: 3.5em;
+height: 3.5em;
+}
+
+.band-detail {
+display: flex;
+flex-direction: column;
+margin-top: 9vw;
+margin-left: 12vw;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.band-brief-info {
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: #FF5438;
+    background: url(../capstoneimgs/title_underlinegray.svg) bottom left no-repeat;
+}
+
+.artist-intro {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.more-less{
+  display: flex;
+  justify-content: center;
+   align-self: center;
+   margin: 4em;
+   width: 75%;
+   color: black;
+   height: auto;
+   background-color: white;
+   border: 1px solid grey;
+   padding: 0.8em;
+}
+
+.more-less::after {
+    display: flex;
+    transition: 0.2s;
+    font-size: 22px;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+  }
+
+  .more-lessExpand {
+    height: auto;
+    overflow: visible !important;
+  }
+
+.titlePartners {
+    display: none;
+}
+#sponsors {
+    display: none;
+}
+
+.desktop-footer {
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    width: 100%;
+    height: auto;
+    align-items: end;
+  }
+
+  .footer-p {
+    width: 100%;
+    color:#414246;
+    align-self: center;
+  }
+  
+
+/******DESKTOP STYLES ********************************/
+
+@media screen and (min-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+    #header-nav-bar {
+        display: none;
+    }
+
+    .session-container {
+     display: flex !important;
+    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+     color: white;
+     font-size: 14px;
+    height: auto;
+    width: 100%;
+    }
+
+    .sessionbar {
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+    }
+
+    .sessionbar:hover {
+        transform: scale(1.2);
+    }
+
+    .logonav {
+        display: block;
+        height: auto;
+    }
+
+    .secondary-nav {
+        display: block;
+       align-items: center;
+    }
+
+    .sec-nav-link-btn {
+        border: 3px solid #FF5438;
+        padding: 0.5rem;
+        color:#FF5438;
+        font-weight: bold;
+        background-color: white;
+    }
+
+    .hero {
+        padding: 6rem;
+        flex-direction: row;
+        justify-content: flex-start;
+        background: url(../capstoneimgs/inti-raymi.png) bottom no-repeat;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+    }
+
+    #artists-lineup-cont {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .artists-lineup { 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 4px solid lightgray;
+        width: 50%;
+        background-image: none;
+        background-color: lightgray;
+        font-size: 2vw;
+        color:#e62406
+    }
+
+    .artists-lineup:hover {
+        transition: transform 0.5s ease-in-out;
+        transform: scale(1.6);
+    }
+
+    .date-venue {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .date-venue {
+        margin-right: 3vw;
+    }
+
+    .main-program {
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+        margin-top: 0;
+        padding-inline: 3vw;
+    }
+
+    .title {
+        flex-direction: flex;
+        justify-content: center;
+    }
+
+    .program-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+        height: 70%;
+    }
+
+    .card-text {
+        align-self: center;
+    }
+
+    .join-inti {
+        display: none;
+    }
+
+    .desktop-see-program {
+        display: block;
+        color: white;
+        margin-top: -7vw;
+        cursor: pointer;
+    }
+
+    #all-performers {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .performer-card {
+        display: flex;
+         width: 50%;
+         padding: 0 6vw 1vw 0;
+    }
+
+    .band-detail {
+        margin-top: 3vw;
+        margin-left: 7vw;
+    }
+
+    .more-less {
+        display: none;;
+    }
+
+    .titlePartners {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: #414246;
+        color: white;
+    }
+    #sponsors {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #414246;
+        color: white;
+        padding: 2vw;
+    }
+
+    .desktop-footer {
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+        padding: 0vw;
+    }
+
+    .footer-icon {
+        width: 20%;
+    }
+    
+    .footer-p {
+        justify-self: flex-end;
+        width: fit-content;
+    }
+}
+
+/********ABOUT***************/
+
+
+***********header***************/
+
+#headline {
+    width: 100%;
+  }
+
+  .headline-hello {
+    color: orangered;
+    text-align: center;
+    margin: 5vw 0 0 0;
+    font-size: 1.2rem;
+  }
+  
+  .headline-title {
+    font-size: 8vw;
+    font-weight: 900;
+    height: 90vw;
+    padding: 1vw 0 0 3vw;
+    margin-top: 4vw;
+    background-color: #f5f5f580;
+    color: orangered;
+    text-align: center;
+    background: url(../capstoneimgs/inti-raymi.png) center no-repeat;
+  }
+  
+  .headline-p {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 55vw;
+    width: 94%;
+    margin-inline: 3vw;
+    border: 2px solid grey;
+    padding: 3vw;
+    background-color: #fff;
+    text-align: center;
+    font-size: 3.6vw;
+    line-height: 6vw;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    top: 120vw;
+    width: 94%;
+    margin-inline: 3vw;
+    padding: 3vw;
+    text-align: center;
+    align-items: center;
+    font-size: 3.6vw;
+    font-weight: bold;
+    line-height: 5.7vw;
+  }
+  
+  address {
+    top: -5vw;
+    width: 100%;
+    text-align: center;
+    font-size: 3.6vw;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .sectionTitle {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-inline: 3vw;
+    padding-bottom: 5vw;
+    background: url(../capstoneimgs/title_underline.png) bottom no-repeat;
+  }
+
+  .creative-p {
+    font-size: 0.7rem;
+    line-height: 5vw;
+    font-weight: bold;
+    color: grey;
+    margin-inline: 2vw;
+    text-align: center;
+  }
+
+  .desktop-p {
+    display: block;
+  }
+
+  #creative img {
+    width: 50%;
+    margin-block: 3vw;
+    margin-inline: 25vw;
+    padding: 0;
+    border: 2px solid lightgrey;
+  }
+
+  /******** History ********/
+
+  #history {
+    padding: 0 12vw 12vw 12vw;
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 0 6vw 0;
+    justify-content: center;*/
+  }
+
+  #history h1 {
+    width: 100%;
+  }
+
+  /*#history h1::after {
+    left: 47%;
+  }*/
+
+  .history-p {
+    /*width: 100%;*/
+    font-size: 0.7rem;
+    margin-inline: 2vw;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .hist-link {
+    width: 30%;
+    height: 30%;
+    color:#fff;
+    text-decoration: none;
+    margin-inline: 1.5vw;
+    transition: transform 300ms ease-in-out;
+  }
+
+  .hist-link:hover {
+    transform: scale(1.2);
+  }
+
+  .hist-time {
+    font-size: 9vw;
+    text-align: center;
+  }
+
+  .hist-title {
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .ir2022 {
+    width: 100%;
+    display: block;
+    background: url(../capstoneimgs/inti-raymi-2022.jpg) no-repeat;
+    background-size: contain;
+    text-decoration: none;
+    margin-bottom: 1.5vw;
+    color: white;
+  }
+
+  .ir2020 {
+  width: 100% ;
+  display: block;
+  background: url(../capstoneimgs/DSC_01192.jpg) no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  color:white;
+  }
+
+  #history article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   background-color: #b62a1bad;
+    width: 100%;
+    height: 43vw;
+  }
+
+  #sponsors {
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #414246;
+    padding-bottom: 6vw;
+    /*display: none;*/
+  }
+
+  .titlePartners {
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 6vw;
+    padding-bottom: 2vw;
+    color:white;
+    background-color: #414246;
+    
+  }
+
+  .titlePartners::after {
+   background-image: url('../capstoneimgs/title_underline.png') no-repeat;
+  }
+
+  .sponsors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /**** Footer ******/
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: white;
+  }
+
+  .wmf-logo {
+    width: 25vw;
+  position: relative;
+  margin-right: 3vw;
+  }
+
+  .footer-p,
+  .footer-p a {
+    margin-block: 3vw;
+    color: #414246;
+  }
+
+
+  /*********DESKTOP*******************/
+
+  @media screen and (min-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+    #header-nav-bar {
+        display: none;
+    }
+
+    .session-container {
+     display: flex !important;
+    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+     color: white;
+     font-size: 14px;
+    height: auto;
+    width: 100%;
+    }
+
+    .sessionbar {
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+    }
+
+    .sessionbar:hover {
+        transform: scale(1.2);
+    }
+
+    .logonav {
+        display: flex;
+        height: 20px;
+    }
+
+    .secondary-nav {
+        display: block;
+       align-self: center;
+    }
+
+    .sec-nav-link {
+      color:#414246;
+      text-decoration: none;
+      align-items: center;
+    }
+
+    .sec-nav-link-btn {
+        border: 3px solid #FF5438;
+        padding: 0.5rem;
+        color:#FF5438;
+        font-weight: bold;
+        background-color: white;
+    }
+
+    .headline-title {
+      height: 60vw;
+    }
+    .headline-p {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      top: 40vw;
+      width: 75%;
+      font-size: 1.8vw;
+      margin: 8em;
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .contact {
+      font-size: 1.5vw;
+    }
+
+    address {
+      font-size: 1.5vw;
+    }
+
+    .sectionTitle {
+      font-size: 2.5vw;
+    }
+    .creative-p {
+      font-size: 1.2vw;
+    }
+
+    .history-p {
+      font-size: 1.2vw;
+      margin-bottom: 6vw;
+    }
+
+    .lapaz-lima {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+
+    #history article {
+      justify-content: center;
+     background-color: #b62a1bad;
+      width: 100%;
+      height: 20vw;
+    }
+
+    .hist-time {
+      font-size: 3vw;
+    }
+
+    .hist-title {
+    font-size: 2vw;
+  }
+
+  #sponsors {
+    display: none;
+  }
+
+  .desktop-footer-about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #414246;
+   width: 100%;
+    font-weight: bold;
+    padding: 0vw;
+}
+
+.footer-icon {
+    width: 100%;
+}
+
+.footer-p {
+    font-size: 1.5vw;
+    color:white;
+}
+  }
+
