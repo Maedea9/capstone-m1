@@ -191,7 +191,6 @@
   padding-top: 3vw;
   padding-bottom: 3vw;
   width: 100%;
-  height: fit-content;
 }
 
 .title {
@@ -201,10 +200,10 @@
   background: url(../capstoneimgs/title_underline.png) bottom no-repeat;
 }
 
-a {
+/*#header a {
   text-decoration: none;
   color: #ff5438;
-}
+}*/
 
 h3 {
   font-size: 18px;
@@ -234,7 +233,7 @@ h3 {
 }
 
 .main-performers {
-  height: fit-content;
+  height: auto;
 }
 
 #perTitle {
@@ -454,7 +453,6 @@ h3 {
   }
 
   .title {
-    flex-direction: flex;
     justify-content: center;
   }
 

@@ -282,10 +282,6 @@ address {
   background-color: #414246;
 }
 
-.titlePartners::after {
-  background-image: url('../capstoneimgs/title_underline.png') no-repeat;
-}
-
 .sponsors {
   display: flex;
   flex-direction: row;
@@ -309,13 +305,17 @@ footer {
   margin-right: 3vw;
 }
 
-.footer-p,
-.footer-p a {
+.footer-p {
+ margin-block: 3vw;
+color: #414246;
+}
+
+
+.footer-p > a {
   margin-block: 3vw;
   color: #414246;
 }
 
-/*********DESKTOP  *******************/
 @media screen and (min-width: 768px) {
   body {
     overflow-x: hidden;
