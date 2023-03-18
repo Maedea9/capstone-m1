@@ -18,8 +18,6 @@ closeIcon.addEventListener("click",()=>{
 //performers title//
 
 const perTitle = document.getElementById('performer-title');
-console.log(document.querySelectorAll('#performers-title'))
-// console.log(perTitle)
 perTitle.innerHTML= `<div id="performer-title d-flex justify-content-center">
 <h1 class="perTitle d-flex">Performers</h1>
 <div class="red-line"></div>
