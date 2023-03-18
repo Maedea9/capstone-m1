@@ -306,10 +306,9 @@ footer {
 }
 
 .footer-p {
- margin-block: 3vw;
-color: #414246;
+  margin-block: 3vw;
+  color: #414246;
 }
-
 
 .footer-p > a {
   margin-block: 3vw;
