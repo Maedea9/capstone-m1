@@ -76,7 +76,7 @@ To run the project, execute the "index.html" file in your browser
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Loom Walkthrough Video](https://www.loom.com/share/a2952b953c22406096cb32691fa38723)
+- [Loom Walkthrough Video](https://www.loom.com/share/cbc7bca2a0d1400aafe22fa68c7d37c6)
 
 - [Live Demo Link](https://maedea9.github.io/capstone-m1/)
 
@@ -99,6 +99,8 @@ To run the project, execute the "index.html" file in your browser
 
 ## 🤝 Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!
+
+This project was possible thanks to the Original design idea by Cindy Shin in Behance with a Creative Commons license.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
