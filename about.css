@@ -14,11 +14,9 @@
 }
 
 #header {
-  /* position: absolute; */
   width: 100vw;
   left: 0;
   z-index: 10;
-  border-bottom: 2px solid gray;
   background-color: white;
 }
 
@@ -55,8 +53,6 @@
   position: absolute;
   display: none;
   cursor: pointer;
-
-  /* opacity: 0; */
 }
 
 #menu-container {
@@ -65,8 +61,6 @@
   top: 4em !important;
   width: 100%;
   height: 100%;
-
-  /* opacity: 0; */
 }
 
 .menu {
@@ -79,7 +73,7 @@
 }
 
 .nav-li1:hover {
-  background-color: orangered;
+  background-color:  #ec5242;;
 }
 
 #menu-icon {
@@ -97,7 +91,7 @@
 }
 
 .headline-hello {
-  color: orangered;
+  color:  #ec5242;;
   text-align: center;
   margin: 5vw 0 0 0;
   font-size: 1.2rem;
@@ -106,19 +100,18 @@
 .headline-title {
   font-size: 8vw;
   font-weight: 900;
-  height: 90vw;
+  height: 118vw;
   padding: 1vw 0 0 3vw;
   margin-top: 4vw;
-  color: orangered;
+  color:  #ec5242;
   text-align: center;
-  background: url(../capstoneimgs/inti-raymi.png) center no-repeat;
 }
 
 .headline-p {
   position: absolute;
   display: flex;
   flex-wrap: wrap;
-  top: 55vw;
+  top: 69vw;
   width: 94%;
   margin-inline: 3vw;
   border: 2px solid grey;
@@ -127,13 +120,12 @@
   font-size: 3.6vw;
   line-height: 6vw;
   color: black;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(216, 203, 203, 0.4);
 }
 
 .contact {
   display: flex;
   flex-direction: column;
-  top: 120vw;
   width: 94%;
   margin-inline: 3vw;
   padding: 3vw;
@@ -186,23 +178,13 @@ address {
 
 #history {
   padding: 0 12vw 12vw 12vw;
-
-  /* flex-direction: row;
-      flex-wrap: wrap;
-      padding: 0 0 6vw 0;
-      justify-content: center; */
 }
 
 #history h1 {
   width: 100%;
 }
 
-/* #history h1::after {
-      left: 47%;
-    } */
-
 .history-p {
-  /* width: 100%; */
   font-size: 0.7rem;
   margin-inline: 2vw;
   font-weight: bold;
@@ -269,8 +251,6 @@ address {
   text-align: center;
   background-color: #414246;
   padding-bottom: 6vw;
-
-  /* display: none; */
 }
 
 .titlePartners {
@@ -310,10 +290,6 @@ footer {
   color: #414246;
 }
 
-/* .footer-p > a {
-  margin-block: 3vw;
-  color: #414246;
-} */
 
 @media screen and (min-width: 768px) {
   body {
@@ -354,16 +330,22 @@ footer {
     align-self: center;
   }
 
+  .sec-nav-item {
+   margin-top: 0.5vw;
+  }
   .sec-nav-link {
-    color: #414246;
+    color: black;
     text-decoration: none;
-    align-items: center;
   }
 
+  .sec-nav-link:hover {
+    color: #ec5242;
+  }
+ 
   .sec-nav-link-btn {
-    border: 3px solid #ff5438;
+    border: 3px solid  #ec5242;;
     padding: 0.5rem;
-    color: #ff5438;
+    color:  #ec5242;;
     font-weight: bold;
     background-color: white;
   }
@@ -380,7 +362,7 @@ footer {
     width: 75%;
     font-size: 1.8vw;
     margin: 8em;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(206, 191, 191, 0.4);
   }
 
   .contact {
