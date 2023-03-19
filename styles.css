@@ -1,0 +1,536 @@
+
+* {
+  scrollbar-width: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.check,
+.check * {
+  border: solid 1px rgb(0, 0, 0);
+}
+
+#header {
+  width: 100vw;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+#header a {
+  text-decoration: none;
+  color: #ec5242;
+}
+
+#header a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#header-nav-bar {
+  display: flex;
+  flex-direction: row;
+  column-gap: 37%;
+}
+
+.session-container {
+  display: none;
+}
+
+.secondary-nav {
+  display: none;
+}
+
+#menu {
+  position: absolute;
+  z-index: 1;
+}
+
+.close-menu-icon {
+  position: absolute;
+  display: none;
+  cursor: pointer;
+}
+
+#menu-container {
+  position: absolute;
+  font-weight: bold;
+  top: 4em !important;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: lightgray;
+  display: none;
+}
+
+.nav-li1:hover {
+  background-color: #ec5242;
+}
+
+#menu-icon {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu-icon:hover #menu-icon:focus {
+  transform: scale(1.1);
+  outline: none;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.hero-hello {
+  font-size: 25px;
+  color: black;
+}
+
+.hero-title {
+  font-size: 50px;
+  font-weight: 900;
+  color: #ec5242;
+  letter-spacing: -1.5px;
+  padding-bottom: 0;
+  background-image: url(../capstoneimgs/peakpx.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: 60% 100%;
+}
+
+.artists-lineup {
+  justify-content: center;
+  width: 100%;
+  margin-top: 1vw;
+  margin-right: 16px;
+  background: url(../capstoneimgs/inti-raymi.png) center no-repeat;
+}
+
+.line1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.line2 {
+  font-size: 0.69em;
+  font-weight: 700;
+}
+
+.line3 {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.line4 {
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+
+.line5 {
+  font-size: 0.5rem;
+  font-weight: 700;
+}
+
+.line6 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.line7 {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.line8 {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.date {
+  font-size: 6vw;
+  font-weight: 700;
+  margin-top: 1vw;
+  color: gray;
+}
+
+.venue {
+  font-size: 4vw;
+  font-weight: 300;
+  margin-top: 1vw;
+  color: black;
+}
+
+.info {
+  padding-top: 1vw;
+  background: url(../capstoneimgs/diamond.png) repeat;
+  background-color: rgb(26, 26, 26);
+}
+
+.main-program {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  width: 100%;
+}
+
+.title {
+  color: white;
+  font-size: 15px;
+  padding-bottom: 0.5vw;
+  background: url(../capstoneimgs/title_underline.png) bottom no-repeat;
+}
+
+h3 {
+  font-size: 18px;
+  color: #ec5242;
+}
+
+.program-cards {
+  display: grid;
+  grid-template-columns: 100px 100px auto;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding: 0.5em;
+  background-color: rgba(65, 66, 70, 0.4);
+}
+
+.join-inti {
+  padding: 1.5em;
+  margin: 4em;
+  width: 75%;
+  color: white;
+  background-color: #ec5242;
+}
+
+.desktop-see-program {
+  display: none;
+}
+
+.main-performers {
+  height: auto;
+}
+
+#perTitle {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.red-line {
+  width: 100%;
+  height: auto;
+  background: url('../capstoneimgs/title_underline.png') no-repeat;
+}
+
+.container-performers {
+  padding: 1rem 6rem 6rem 6rem;
+}
+
+#all-performers {
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+  padding-inline: 3em;
+  height: 600px;
+  overflow: hidden;
+}
+
+.performer-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.checkerbg {
+  background: url('../capstoneimgs/checkboardimg.jpg') top left no-repeat;
+  background-size: contain;
+  justify-self: center;
+  padding: 0.7em 0 0 0.7em;
+  width: 3.5em;
+  height: 3.5em;
+}
+
+.band-detail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9vw;
+  margin-left: 12vw;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.band-brief-info {
+  font-size: 16px;
+  padding-bottom: 10px;
+  color: #ec5242;
+  background: url(../capstoneimgs/title_underlinegray.svg) bottom left no-repeat;
+}
+
+.artist-intro {
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.more-less {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 4em;
+  width: 75%;
+  color: black;
+  height: auto;
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  padding: 0.8em;
+}
+
+.more-less::after {
+  display: flex;
+  transition: 0.2s;
+  font-size: 22px;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}
+
+.more-lessExpand {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.titlePartners {
+  display: none;
+}
+
+#sponsors {
+  display: none;
+}
+
+.desktop-footer {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  align-items: end;
+}
+
+.footer-p {
+  width: 100%;
+  color: #414246;
+  align-self: center;
+}
+
+/****** DESKTOP STYLES ********************************/
+
+@media screen and (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #header-nav-bar {
+    display: none;
+  }
+
+  .session-container {
+    display: flex !important;
+    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    height: auto;
+    width: 100%;
+  }
+
+  .sessionbar {
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+  }
+
+  .sessionbar:hover {
+    transform: scale(1.2);
+  }
+
+  .logonav {
+    display: block;
+    height: auto;
+  }
+
+  .secondary-nav {
+    display: block;
+    align-items: center;
+  }
+
+  .sec-nav-link {
+    color: black;
+    text-decoration: none;
+  }
+
+  .sec-nav-link:hover {
+    color: #ec5242;
+  }
+
+  .sec-nav-link-btn {
+    border: 3px solid #ec5242;
+    padding: 0.5rem;
+    color: #ec5242;
+    font-weight: bold;
+    background-color: white;
+  }
+
+  .hero {
+    padding: 6rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: url(./capstoneimgs/inti-raymi.png) bottom no-repeat;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+  }
+
+  #artists-lineup-cont {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .artists-lineup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 4px solid lightgray;
+    width: 50%;
+    background-image: none;
+    background-color: rgba(216, 203, 203, 0.4);
+    font-size: 2vw;
+    color: #ec5242;
+  }
+
+  .artists-lineup:hover {
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.6);
+  }
+
+  .date-venue {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 3vw;
+  }
+
+  .main-program {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    margin-top: 0;
+    padding-inline: 3vw;
+  }
+
+  .title {
+    justify-content: center;
+  }
+
+  .program-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 70%;
+  }
+
+  .card-text {
+    align-self: center;
+  }
+
+  .join-inti {
+    display: none;
+  }
+
+  .desktop-see-program {
+    display: block;
+    color: white;
+    margin-top: -7vw;
+    cursor: pointer;
+  }
+
+  #all-performers {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .performer-card {
+    display: flex;
+    width: 50%;
+    padding: 0 6vw 1vw 0;
+  }
+
+  .band-detail {
+    margin-top: 3vw;
+    margin-left: 7vw;
+  }
+
+  .more-less {
+    display: none;
+  }
+
+  .titlePartners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #272a31;
+    color: white;
+  }
+
+  #sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272a31;
+    color: white;
+    padding: 2vw;
+  }
+
+  .desktop-footer {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+  }
+
+  .footer-icon {
+    width: 20%;
+  }
+
+  .footer-p {
+    justify-self: flex-end;
+    width: fit-content;
+  }
+}
