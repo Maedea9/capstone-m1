@@ -21,11 +21,6 @@
   background-color: white;
 }
 
-#header a {
-  color: black;
-  text-decoration: none;
-}
-
 #header a:hover {
   color: black;
   text-decoration: none;
@@ -196,8 +191,8 @@
 
 #header a {
   text-decoration: none;
-  color:#ec5242;
-} 
+  color: #ec5242;
+}
 
 h3 {
   font-size: 18px;
@@ -386,6 +381,10 @@ h3 {
   .secondary-nav {
     display: block;
     align-items: center;
+  }
+
+  .logohome {
+    display: ;
   }
 
   .sec-nav-link {
