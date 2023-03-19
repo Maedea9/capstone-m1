@@ -21,6 +21,11 @@
   background-color: white;
 }
 
+#header a {
+  text-decoration: none;
+  color: #ec5242;
+}
+
 #header a:hover {
   color: black;
   text-decoration: none;
@@ -188,11 +193,6 @@
   padding-bottom: 0.5vw;
   background: url(../capstoneimgs/title_underline.png) bottom no-repeat;
 }
-
-#header a {
-  text-decoration: none;
-  color:#ec5242;
-} 
 
 h3 {
   font-size: 18px;
@@ -381,10 +381,6 @@ h3 {
   .secondary-nav {
     display: block;
     align-items: center;
-  }
-
-  .logohome {
-    display: ;
   }
 
   .sec-nav-link {
