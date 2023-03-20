@@ -29,8 +29,8 @@ const allArtists = [
   {
     id: 'performer 1',
     name: 'TAWA',
-    from: 'Tawa is an ecuadorian band from Quito. Formed in Argentina in 2013.',
-    genre: 'Focusing in latinamerican rhythms and folklore, TAWAs artistic persuit has led them to represent Ecuador in international festivals playing traditional music with a modern approach.',
+    from: 'Ecuadorian band formed in Argentina in 2013.',
+    genre: 'TAWAs artistic persuit has led them to represent Ecuador in international festivals playing traditional music with a modern approach.',
     image: './capstoneimgs/tawaimg.png',
   },
   {
@@ -57,8 +57,8 @@ const allArtists = [
   {
     id: 'performer 5',
     name: 'Grupo Sendero',
-    from: 'Ecuadorian band from Quito. Formed in Ecuador in 2013.',
-    genre: 'Grupo Sendero proposes a different approach to music from the coast of Ecuador. Their music recollects history of the forgotten provinces of their homeland.',
+    from: 'Formed in Ecuador in 2013.',
+    genre: 'A different approach to music from the coast of Ecuador. Their music recollects history of the forgotten provinces of their homeland.',
     image: './capstoneimgs/sendero.jpg',
   },
   {

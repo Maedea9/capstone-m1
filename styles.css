@@ -195,6 +195,21 @@
   max-width: 1200px;
 }
 
+.program-cards:hover {
+  transition: all 300ms ease-in-out;
+  transform: scale(1.2);
+}
+
+.program-cards-title {
+  color: #ec5242;
+  text-decoration: none;
+}
+
+.pc-text {
+ color: white;
+}
+
+
 .title {
   color: white;
   font-size: 15px;
@@ -215,7 +230,7 @@ h3 {
 .program-cards {
   display: grid;
   grid-template-columns: 100px 100px auto;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   color: white;
   padding: 0.5em;
@@ -269,9 +284,9 @@ h3 {
   flex-wrap: wrap;
   margin-bottom: 0.5rem;
   /* padding-inline: 3em; */
-  height: 600px;
+  height: 630px;
   max-width: 1200px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 /* img{
@@ -512,13 +527,10 @@ h3 {
   .program-cards {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
     width: 18%;
     height: auto;
-  }
-
-  .card-text {
-    align-self: center;
   }
 
   .join-inti {
