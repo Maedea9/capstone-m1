@@ -73,7 +73,7 @@
 }
 
 .nav-li1:hover {
-  background-color:  #ec5242;;
+  background-color: #ec5242;
 }
 
 #menu-icon {
@@ -92,7 +92,7 @@
 }
 
 .headline-hello {
-  color:  #ec5242;;
+  color: #ec5242;
   text-align: center;
   margin: 5vw 0 0 0;
   font-size: 1.2rem;
@@ -104,7 +104,7 @@
   height: 118vw;
   padding: 1vw 0 0 3vw;
   margin-top: 4vw;
-  color:  #ec5242;
+  color: #ec5242;
   text-align: center;
 }
 
@@ -219,7 +219,7 @@ address {
 .ir2022 {
   width: 100%;
   display: block;
-  background: url(../capstoneimgs/inti-raymi-2022.jpg) no-repeat;
+  background: url(./capstoneimgs/inti-raymi-2022.jpg) no-repeat;
   background-size: contain;
   text-decoration: none;
   margin-bottom: 1.5vw;
@@ -229,7 +229,7 @@ address {
 .ir2020 {
   width: 100%;
   display: block;
-  background: url(../capstoneimgs/DSC_01192.jpg) no-repeat;
+  background: url(./capstoneimgs/DSC_01192.jpg) no-repeat;
   background-size: cover;
   text-decoration: none;
   color: white;
@@ -280,11 +280,11 @@ footer {
   background-color: white;
 }
 
-/*.wmf-logo {
+/* .wmf-logo {
   width: 25vw;
   position: relative;
   margin-right: 3vw;
-}*/
+} */
 
 .footer-p {
   margin-block: 3vw;
@@ -325,15 +325,16 @@ footer {
     align-self: center;
     justify-content: space-between;
   }
-  
-.navlogo {
-margin-inline: 9.41vw;
-}
+
+  .navlogo {
+    margin-inline: 9.41vw;
+  }
 
   .sec-nav-item {
-   margin-top: 0.5vw;
-   margin-left: 1vw;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
   }
+
   .sec-nav-link {
     color: black;
     text-decoration: none;
@@ -342,12 +343,12 @@ margin-inline: 9.41vw;
   .sec-nav-link:hover {
     color: #ec5242;
   }
- 
+
   .sec-nav-link-btn {
-    border: 3px solid  #ec5242;;
+    border: 3px solid  #ec5242;
     padding: 0.5rem;
     margin-left: 6vw;
-    color:  #ec5242;
+    color: #ec5242;
     font-weight: bold;
     background-color: white;
   }

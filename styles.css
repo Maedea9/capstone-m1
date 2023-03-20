@@ -27,8 +27,8 @@
 }
 
 #header a {
-  color: black;
   text-decoration: none;
+  color: #ec5242;
 }
 
 #header a:hover {
@@ -112,7 +112,7 @@
   color: #ec5242;
   letter-spacing: -1.5px;
   padding-bottom: 0;
-  background-image: url(../capstoneimgs/peakpx.jpg);
+  background-image: url(./capstoneimgs/peakpx.jpg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-position: 60% 100%;
@@ -122,8 +122,9 @@
   text-align: center;
   width: 100%;
   padding: 4rem;
-  /*margin-top: 1vw;
-  margin-right: 16px;*/
+
+  /* margin-top: 1vw;
+  margin-right: 16px; */
   background: url(../capstoneimgs/inti-raymi.png) center no-repeat;
 }
 
@@ -163,7 +164,7 @@
 
 .info {
   padding-top: 1vw;
-  background: url(../capstoneimgs/diamond.png) repeat;
+  background: url(./capstoneimgs/diamond.png) repeat;
   background-color: rgb(26, 26, 26);
 }
 
@@ -180,21 +181,15 @@
 }
 
 .pc-text {
- color: white;
+  color: white;
 }
-
 
 .title {
   color: white;
   font-size: 15px;
   padding-bottom: 0.5vw;
-  background: url(../capstoneimgs/title_underline.png) bottom no-repeat;
+  background: url(./capstoneimgs/title_underline.png) bottom no-repeat;
 }
-
-#header a {
-  text-decoration: none;
-  color:#ec5242;
-} 
 
 h3 {
   font-size: 18px;
@@ -247,6 +242,7 @@ h3 {
 #all-performers {
   flex-wrap: wrap;
   margin-bottom: 0.5rem;
+
   /* padding-inline: 3em; */
   height: 630px;
   max-width: 1200px;
@@ -258,12 +254,12 @@ h3 {
   height: auto;
 } */
 
-.card{
+.card {
   width: 85%;
   flex-direction: row;
 }
 
-.card img{
+.card img {
   width: 180px;
   height: 180px;
   object-fit: center;
@@ -271,9 +267,8 @@ h3 {
   padding-top: 30px;
 }
 
-
 @media (min-width: 768px) {
-  .card{
+  .card {
     width: 550px;
   }
 }
@@ -297,6 +292,7 @@ h3 {
 .band-detail {
   display: flex;
   flex-direction: column;
+
   /* margin-top: 9vw;
   margin-left: 12vw; */
 }
@@ -311,7 +307,7 @@ h3 {
   font-size: 16px;
   padding-bottom: 10px;
   color: #ec5242;
-  background: url(../capstoneimgs/title_underlinegray.svg) bottom left no-repeat;
+  background: url(./capstoneimgs/title_underlinegray.svg) bottom left no-repeat;
 }
 
 .artist-intro {
@@ -326,7 +322,6 @@ h3 {
   align-self: center;
   margin: 4em;
   width: 75%;
-  height: 50vh;
   color: black;
   height: auto;
   background-color: white;
@@ -407,18 +402,20 @@ h3 {
     align-self: center;
     justify-content: space-between;
   }
-  
+
   .horizontal-menu {
     display: flex;
   }
-   .navlogo {
+
+  .navlogo {
     margin-inline: 9.41vw;
-}
+  }
 
   .sec-nav-item {
-   margin-top: 0.5vw;
-   margin-left: 1vw;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
   }
+
   .sec-nav-link {
     color: black;
     text-decoration: none;
@@ -427,12 +424,12 @@ h3 {
   .sec-nav-link:hover {
     color: #ec5242;
   }
- 
+
   .sec-nav-link-btn {
-    border: 3px solid  #ec5242;;
+    border: 3px solid  #ec5242;
     padding: 0.5rem;
     margin-left: 6vw;
-    color:  #ec5242;
+    color: #ec5242;
     font-weight: bold;
     background-color: white;
   }
@@ -454,7 +451,7 @@ h3 {
   .date {
     font-size: 3vw;
   }
-  
+
   .venue {
     font-size: 2.5vw;
   }
@@ -477,7 +474,7 @@ h3 {
     color: black;
   }
 
- .artists-lineup:hover {
+  .artists-lineup:hover {
     transition: transform 0.5s ease-in-out;
     transform: scale(1.1);
   }
@@ -497,7 +494,6 @@ h3 {
     margin-top: 0;
     width: 90%;
     max-width: 1200px;
-    /* padding-inline: 3vw; */
   }
 
   .title {
