@@ -92,7 +92,7 @@ const performerContainer = document.getElementById('all-performers');
 // });
 allArtists.map((performer) => {
   performerContainer.innerHTML += `<div class='card fl flex-md-row pt-3'>
-
+ 
   <img  src='${performer.image}' class='card-img-top' 
     alt='...'>
   

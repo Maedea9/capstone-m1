@@ -60,7 +60,7 @@
   font-weight: bold;
   top: 4em !important;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .menu {
@@ -88,6 +88,7 @@
 
 #headline {
   width: 100%;
+  height: auto;
 }
 
 .headline-hello {
@@ -279,17 +280,16 @@ footer {
   background-color: white;
 }
 
-.wmf-logo {
+/*.wmf-logo {
   width: 25vw;
   position: relative;
   margin-right: 3vw;
-}
+}*/
 
 .footer-p {
   margin-block: 3vw;
   color: #414246;
 }
-
 
 @media screen and (min-width: 768px) {
   body {
@@ -320,18 +320,19 @@ footer {
     transform: scale(1.2);
   }
 
-  .logonav {
-    display: flex;
-    height: 20px;
-  }
-
   .secondary-nav {
     display: block;
     align-self: center;
+    justify-content: space-between;
   }
+  
+.navlogo {
+margin-inline: 9.41vw;
+}
 
   .sec-nav-item {
    margin-top: 0.5vw;
+   margin-left: 1vw;
   }
   .sec-nav-link {
     color: black;
@@ -345,7 +346,8 @@ footer {
   .sec-nav-link-btn {
     border: 3px solid  #ec5242;;
     padding: 0.5rem;
-    color:  #ec5242;;
+    margin-left: 6vw;
+    color:  #ec5242;
     font-weight: bold;
     background-color: white;
   }
