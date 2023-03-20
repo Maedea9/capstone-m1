@@ -262,7 +262,7 @@ h3 {
 .card img {
   width: 180px;
   height: 180px;
-  object-fit: center;
+ /*object-fit: center;*/
   object-position: center;
   padding-top: 30px;
 }
