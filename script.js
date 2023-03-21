@@ -108,11 +108,6 @@ allArtists.map((performer) => {
   return ('');
 });
 
-
-
-
-
-
 // more-less button//
 
 const buttonShow = document.getElementById('showMore');
