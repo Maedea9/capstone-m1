@@ -215,7 +215,7 @@ body {
 #all-performers {
   flex-wrap: wrap;
   margin-bottom: 0.5rem;
-  height: 550px;
+  height: 385px;
   max-width: 1200px;
   overflow: hidden;
 }
@@ -226,10 +226,10 @@ body {
 }
 
 .card img {
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
   object-position: center;
-  padding-top: 30px;
+  padding-top: 11px;
 }
 
 .desktop-footer {
@@ -253,9 +253,12 @@ body {
   background: url('../capstoneimgs/checkboardimg.jpg') top left no-repeat;
   background-size: contain;
   justify-self: center;
-  padding: 0.7em 0 0 0.7em;
-  width: 3.5em;
+  padding: 0.3em 0 0 0.7em;
   height: 3.5em;
+}
+
+.band-name {
+  margin-bottom: 0;
 }
 
 .band-detail {
@@ -271,15 +274,14 @@ body {
 
 .band-brief-info {
   font-size: 12px;
-  padding-bottom: 10px;
+  padding-bottom:5px;
   color: #ec5242;
   background: url(./capstoneimgs/title_underlinegray.svg) bottom left no-repeat;
 }
 
 .artist-intro {
   font-size: 12px;
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 5px;
 }
 
 .more-less {

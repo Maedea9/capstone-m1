@@ -35,9 +35,9 @@ const allArtists = [
   },
   {
     id: 'performer 2',
-    name: 'Tetráfono Ensamble',
+    name: 'Tetráfono',
     from: 'Ensemble formed in 2018.',
-    genre: 'Dedicated to research, composition and diffusion of latin-american music.',
+    genre: 'Dedicated to research and composition of latin-american music.',
     image: './capstoneimgs/tetrafonoensamble.jpg',
   },
   {
@@ -76,10 +76,10 @@ const performerContainer = document.getElementById('all-performers');
 
 allArtists.map((performer) => {
   performerContainer.innerHTML += `<div class='card fl flex-md-row pt-3'>
- 
+  <div class="checkerbg">
   <img  src='${performer.image}' class='card-img-top' 
     alt='...'>
-  
+    </div>
   <div class = "band-detail card-body col-12">
       <h6 class="band-name">${performer.name}</h6>
       <div class="band-brief-info">${performer.from} </div>
