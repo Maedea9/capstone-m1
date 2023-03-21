@@ -9,6 +9,18 @@
   display: none;
 }
 
+.orange {
+  color: #ec5242;
+}
+
+.white {
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
 #header {
   width: 100vw;
   left: 0;
@@ -18,7 +30,6 @@
 
 #header a {
   text-decoration: none;
-  color: #ec5242;
 }
 
 #header a:hover {
@@ -93,14 +104,12 @@
 
 .hero-hello {
   font-size: 23px;
-  color: #ec5242;
   margin-bottom: 0;
 }
 
 .hero-title {
   font-size: 50px;
   font-weight: 900;
-  color: #ec5242;
   letter-spacing: -1.5px;
   padding-bottom: 0;
   margin-top: 0;
@@ -153,12 +162,8 @@
 }
 
 .program-cards-title {
-  color: #ec5242;
   text-decoration: none;
-}
-
-.pc-text {
-  color: white;
+  font-size: 18px;
 }
 
 .title {
@@ -166,11 +171,6 @@
   font-size: 15px;
   padding-bottom: 0.5vw;
   background: url(./capstoneimgs/title_underline.png) bottom no-repeat;
-}
-
-h3 {
-  font-size: 18px;
-  color: #ec5242;
 }
 
 .program-cards {
@@ -201,15 +201,13 @@ h3 {
   height: auto;
 }
 
-#perTitle {
+.perTitle {
   text-align: center;
   color: black;
-  font-size: 15px;
-  background: url('./capstoneimgs/redline.svg') no-repeat;
-}
-
-.red-line {
-  background: url('./capstoneimgs/redline.svg') no-repeat;
+  padding: 1vw;
+  margin: 2vw;
+  font-size: 35px;
+  background: url(./capstoneimgs/title_underline.png) bottom no-repeat;
 }
 
 #all-performers {
@@ -391,7 +389,6 @@ h3 {
     border: 3px solid  #ec5242;
     padding: 0.5rem;
     margin-left: 6vw;
-    color: #ec5242;
     font-weight: bold;
     background-color: white;
   }
