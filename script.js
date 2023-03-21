@@ -74,22 +74,6 @@ const allArtists = [
 
 const performerContainer = document.getElementById('all-performers');
 
-// allArtists.map((performer) => {
-//   performerContainer.innerHTML += `
-//     <div class="performer-card d-flex" id="${performer.id}">
-//           <div class="checkerbg">
-//             <img src="${performer.image}" alt="Changuitas singers in red"  class="artist-img">
-//           </div>
-//           <div class = band-detail>
-//               <h4 class="band-name">${performer.name}</h4>
-//               <div class="band-brief-info">${performer.from}</div>
-//               <div class="grey-line"></div>
-//               <p class="artist-intro">${performer.genre}</p>
-//           </div>
-//       </div>`;
-
-//   return ('');
-// });
 allArtists.map((performer) => {
   performerContainer.innerHTML += `<div class='card fl flex-md-row pt-3'>
  
