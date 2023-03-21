@@ -8,9 +8,16 @@
   display: none;
 }
 
-.check,
-.check * {
-  border: solid 1px rgb(0, 0, 0);
+.orange {
+  color: #ec5242;
+}
+
+.white {
+  color: white;
+}
+
+.flex {
+  display: flex;
 }
 
 #header {
@@ -90,11 +97,10 @@
 #headline {
   width: 100%;
   height: auto;
- background-color: rgb(236, 236, 236);
+  background-color: rgb(236, 236, 236);
 }
 
 .headline-hello {
-  color: #ec5242;
   text-align: center;
   margin: 5vw 0 0 0;
   font-size: 1.2rem;
@@ -106,12 +112,10 @@
   height: 25vw;
   padding: 1vw 0 0 3vw;
   margin-top: 4vw;
-  color: #ec5242;
   text-align: center;
 }
 
 .headline-p {
-  display: flex;
   flex-wrap: wrap;
   width: 94%;
   margin-inline: 3vw;
@@ -125,7 +129,6 @@
 }
 
 .contact {
-  display: flex;
   flex-direction: column;
   width: 94%;
   margin-inline: 3vw;
@@ -146,10 +149,6 @@ address {
   padding-bottom: 3vw;
   text-decoration: underline;
   color: rgb(129, 126, 126);
-}
-
-#history {
-  border-top: 1px solid lightgrey;
 }
 
 .sectionTitle {
@@ -184,6 +183,7 @@ address {
 /******** History ********/
 
 #history {
+  border-top: 1px solid lightgrey;
   padding: 0 12vw 12vw 12vw;
 }
 
@@ -286,12 +286,6 @@ footer {
   background-color: white;
 }
 
-/* .wmf-logo {
-  width: 25vw;
-  position: relative;
-  margin-right: 3vw;
-} */
-
 .footer-p {
   margin-block: 3vw;
   color: #414246;
@@ -330,7 +324,7 @@ footer {
     display: block;
     align-self: center;
     justify-content: space-between;
-    background-color: white
+    background-color: white;
   }
 
   .navlogo {
@@ -355,14 +349,14 @@ footer {
     border: 3px solid  #ec5242;
     padding: 0.5rem;
     margin-left: 6vw;
-    color: #ec5242;
     font-weight: bold;
     background-color: white;
   }
 
   .headline-hello {
-    display:none;
+    display: none;
   }
+
   .headline-title {
     font-size: 4vw;
     height: 12vw;

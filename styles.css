@@ -38,7 +38,6 @@
 }
 
 #header-nav-bar {
-  display: flex;
   flex-direction: row;
   column-gap: 37%;
 }
@@ -94,7 +93,6 @@
 }
 
 .hero {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
@@ -277,7 +275,6 @@
 }
 
 .more-less {
-  display: flex;
   justify-content: center;
   align-self: center;
   margin: 4em;
@@ -329,10 +326,6 @@
 /****** DESKTOP STYLES ********************************/
 
 @media screen and (min-width: 768px) {
-  body {
-    /* overflow-x: hidden; */
-  }
-
   #header-nav-bar {
     display: none;
   }
@@ -442,17 +435,17 @@
     font-size: 1.5rem;
     font-weight: 700;
   }
-  
+
   .line2 {
     font-size: 0.69em;
     font-weight: 700;
   }
-  
+
   .line3 {
     font-size: 0.8rem;
     font-weight: 700;
   }
-  
+
   .line4 {
     font-size: 0.8rem;
     font-weight: 700;
@@ -522,7 +515,6 @@
   }
 
   .titlePartners {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -542,7 +534,6 @@
   .desktop-footer {
     justify-content: space-between;
     align-items: center;
-    color: white;
     font-weight: bold;
     padding: 0;
   }
