@@ -66,7 +66,7 @@
 #menu-container {
   position: absolute;
   font-weight: bold;
-  top: 4em !important;
+  top: 4em;
   width: 100%;
   height: auto;
 }
@@ -76,7 +76,7 @@
   align-items: center;
   row-gap: 2rem;
   padding: 1rem 1rem 1rem 1rem;
-  background-color: lightgray;
+  background-color: white;
   display: none;
 }
 
@@ -132,7 +132,7 @@
   flex-direction: column;
   width: 94%;
   margin-inline: 3vw;
-  padding: 3vw;
+  padding: 1vw;
   text-align: center;
   align-items: center;
   font-size: 3.6vw;
@@ -146,7 +146,7 @@ address {
   text-align: center;
   font-size: 3.6vw;
   font-weight: 600;
-  padding-bottom: 3vw;
+  padding-bottom: 1vw;
   text-decoration: underline;
   color: rgb(129, 126, 126);
 }
@@ -155,14 +155,13 @@ address {
   font-size: 1.3rem;
   text-align: center;
   margin-inline: 3vw;
-  padding: 5vw;
+  padding: 5vw 0 1vw 0;
   background: url(./capstoneimgs/title_underline.png) bottom no-repeat;
 }
 
 .creative-p {
   font-size: 0.7rem;
   line-height: 5vw;
-  font-weight: bold;
   color: grey;
   margin-inline: 2vw;
   text-align: center;
@@ -301,7 +300,7 @@ footer {
   }
 
   .session-container {
-    display: flex !important;
+    display: flex;
     background-color: black;
     justify-content: flex-end;
     align-items: center;
@@ -358,25 +357,25 @@ footer {
   }
 
   .headline-title {
-    font-size: 4vw;
-    height: 12vw;
+    font-size: 3vw;
+    height: 10vw;
+    background: url(./capstoneimgs/title_underline.png) bottom no-repeat;
   }
 
   .headline-p {
     width: 75%;
-    font-size: 1.5vw;
-    padding: 4em;
+    font-size: 1vw;
+    padding: 1em;
     margin-inline: 12vw;
     line-height: 3vw;
-    background-color: rgba(206, 191, 191, 0.4);
   }
 
   .contact {
-    font-size: 1.5vw;
+    font-size: 1vw;
   }
 
   address {
-    font-size: 1.5vw;
+    font-size: 1vw;
   }
 
   .sectionTitle {

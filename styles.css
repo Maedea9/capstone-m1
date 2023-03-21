@@ -262,14 +262,14 @@
 }
 
 .band-brief-info {
-  font-size: 13px;
+  font-size: 12px;
   padding-bottom: 10px;
   color: #ec5242;
   background: url(./capstoneimgs/title_underlinegray.svg) bottom left no-repeat;
 }
 
 .artist-intro {
-  font-size: 13px;
+  font-size: 12px;
   padding-top: 15px;
   padding-bottom: 10px;
 }
@@ -331,7 +331,7 @@
   }
 
   .session-container {
-    display: flex !important;
+    display: flex;
     background-color: black;
     justify-content: flex-end;
     align-items: center;
