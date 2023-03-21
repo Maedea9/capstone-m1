@@ -81,7 +81,7 @@ allArtists.map((performer) => {
     alt='...'>
   
   <div class = "band-detail card-body col-12">
-      <h4 class="band-name">${performer.name}</h4>
+      <h6 class="band-name">${performer.name}</h6>
       <div class="band-brief-info">${performer.from} </div>
       <div class="grey-line"></div>
       <p class="artist-intro">${performer.genre}</p>

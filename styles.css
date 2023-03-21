@@ -9,6 +9,10 @@
   display: none;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .orange {
   color: #ec5242;
 }
@@ -96,7 +100,6 @@
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
-  margin-top: 1.5rem;
   width: 100%;
 }
 
@@ -106,11 +109,11 @@
 }
 
 .hero-title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 900;
   letter-spacing: -1.5px;
-  padding-bottom: 0;
   margin-top: 0;
+  margin-bottom: 0;
   background-image: url(./capstoneimgs/peakpx.jpg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -118,9 +121,10 @@
 }
 
 .artists-lineup {
+  flex-direction: column;
   text-align: start;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   background: url(./capstoneimgs/inti-raymi.png) center no-repeat;
 }
 
@@ -133,7 +137,7 @@
 }
 
 .date {
-  font-size: 6vw;
+  font-size: 8vw;
   font-weight: 700;
   margin-top: 1vw;
   color: gray;
@@ -142,7 +146,7 @@
 .venue {
   font-size: 4vw;
   font-weight: 300;
-  margin-top: 1vw;
+  margin-top: -1vw;
   color: black;
 }
 
@@ -185,7 +189,7 @@
 
 .join-inti {
   padding: 1.5em;
-  margin: 4em;
+  margin: 3em;
   width: 75%;
   color: white;
   background-color: #ec5242;
@@ -211,7 +215,7 @@
 #all-performers {
   flex-wrap: wrap;
   margin-bottom: 0.5rem;
-  height: 440px;
+  height: 550px;
   max-width: 1200px;
   overflow: hidden;
 }
@@ -226,6 +230,10 @@
   height: 180px;
   object-position: center;
   padding-top: 30px;
+}
+
+.desktop-footer {
+  border-top: 1px solid lightgray;
 }
 
 @media (min-width: 768px) {
@@ -277,7 +285,7 @@
 .more-less {
   justify-content: center;
   align-self: center;
-  margin: 4em;
+  margin: 3em;
   width: 75%;
   color: black;
   height: auto;
@@ -318,6 +326,7 @@
 }
 
 .footer-p {
+  font-size: small;
   width: 100%;
   color: #414246;
   align-self: center;
@@ -387,7 +396,7 @@
   }
 
   .hero {
-    padding: 4em;
+    padding-inline: 10vw;
     flex-direction: row;
     justify-content: flex-start;
     background: url(./capstoneimgs/inti-raymi.png) right no-repeat;
@@ -401,11 +410,11 @@
   }
 
   .date {
-    font-size: 3vw;
+    font-size: 2vw;
   }
 
   .venue {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
   }
 
   #artists-lineup-cont {
@@ -418,11 +427,10 @@
     flex-direction: row;
     justify-content: center;
     border: 4px solid lightgray;
-    width: 70%;
-    margin-left: 2.7em;
+    width: 55%;
+    margin-left: 10vw;
     background-image: none;
     background-color: rgba(216, 203, 203, 0.4);
-    font-size: 2vw;
     color: black;
   }
 
@@ -431,22 +439,8 @@
     transform: scale(1.1);
   }
 
-  .line1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-
-  .line2 {
-    font-size: 0.69em;
-    font-weight: 700;
-  }
-
+  .line1,
   .line3 {
-    font-size: 0.8rem;
-    font-weight: 700;
-  }
-
-  .line4 {
     font-size: 0.8rem;
     font-weight: 700;
   }
@@ -455,8 +449,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-top: 5em;
-    margin-left: 2.7em;
+    margin-left: 8vw;
   }
 
   .main-program {
