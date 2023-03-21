@@ -211,7 +211,7 @@
 #all-performers {
   flex-wrap: wrap;
   margin-bottom: 0.5rem;
-  height: 540px;
+  height: 440px;
   max-width: 1200px;
   overflow: hidden;
 }
