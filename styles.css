@@ -232,10 +232,6 @@ body {
   padding-top: 11px;
 }
 
-.desktop-footer {
-  border-top: 1px solid lightgray;
-}
-
 @media (min-width: 768px) {
   .card {
     width: 550px;
@@ -274,7 +270,7 @@ body {
 
 .band-brief-info {
   font-size: 12px;
-  padding-bottom:5px;
+  padding-bottom: 5px;
   color: #ec5242;
   background: url(./capstoneimgs/title_underlinegray.svg) bottom left no-repeat;
 }
@@ -325,6 +321,7 @@ body {
   width: 100%;
   height: auto;
   align-items: end;
+  border-top: 1px solid lightgray;
 }
 
 .footer-p {
