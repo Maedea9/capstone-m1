@@ -76,7 +76,7 @@ To run the project, execute the "index.html" file in your browser
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Loom Walkthrough Video](https://www.loom.com/share/2895f4e5fa7c40cc8f2e94d3f437ea25)
+- [Loom Walkthrough Video](https://www.loom.com/share/e0ddb68d99f54f429fb8dcf78f1c50fd)
 
 - [Live Demo Link](https://maedea9.github.io/capstone-m1/)
 
